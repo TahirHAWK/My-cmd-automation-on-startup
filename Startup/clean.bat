@@ -20,3 +20,5 @@ start /D "D:\PERSONAL\study\test_programs_gone_right\my_basic_utilities\Startup\
 
 start /D "D:\PERSONAL\study\test_programs_gone_right\my_basic_utilities\Startup\" clear_delivery_optimization_cache.bat
 
+
+start /D "D:\xampp\htdocs\my-complex-js-app" git_basic.cmd
