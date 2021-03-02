@@ -71,5 +71,7 @@
 		taskkill /f /im WeMod.exe
 		taskkill /f /im IDMan.exe
 		taskkill /f /im IEMonitor.exe
+		taskkill /f /im MpCmdRun.exe
+taskkill /f /im OfficeClickToRun.exe
 		
 		
