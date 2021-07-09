@@ -1,0 +1,19 @@
+// use this vba code on excel visual basic editor and then run it.
+
+Sub save()
+
+
+Dim Duration, Start
+Duration = 3
+Start = Timer
+
+Do While Timer < Start + Duration
+    DoEvents
+Loop
+
+ActiveWorkbook.save
+MsgBox ("Saved")
+
+save
+
+End Sub
