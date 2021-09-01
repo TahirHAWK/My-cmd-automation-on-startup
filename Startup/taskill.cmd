@@ -73,5 +73,9 @@
 		taskkill /f /im IEMonitor.exe
 		taskkill /f /im MpCmdRun.exe
 taskkill /f /im OfficeClickToRun.exe
+taskkill /f /im UserOOBEBroker.exe
+taskkill /f /im MoUsoCoreWorker.exe
+taskkill /f /im IntelCpHeciSvc.exe
+taskkill /f /im vmcompute.exe
 		
 		
