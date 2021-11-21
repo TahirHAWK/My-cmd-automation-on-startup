@@ -131,6 +131,10 @@ sc stop "stisvc"
 sc config "wisvc" start= disabled
 sc stop "wisvc"
 
+@REM  Windows License Manager
+sc config "LicenseManager" start= disabled
+sc stop "LicenseManager"
+
 
 
 
@@ -138,7 +142,7 @@ sc stop "wisvc"
 
 
 
-@REM Unnecessary services that causes data reduction ends here.
+@REM Unnecessary services that causes data reduction starts here.
 
 
 
@@ -150,6 +154,10 @@ sc stop "BITS"
 @REM  windows update.
 sc config "wuauserv" start= disabled
 sc stop "wuauserv"
+
+@REM  windows update medic service.
+sc config "WaaSMedicSvc" start= disabled
+sc stop "WaaSMedicSvc"
 
 @REM  remote desktop service
 sc config "TermService" start= disabled
