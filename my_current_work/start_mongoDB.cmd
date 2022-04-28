@@ -1,3 +1,3 @@
-start /D "D:\study and soft(tamin)\my_urgent_worktools\MongoDB Compass" MongoDBCompass.exe
+start /D "F:\my_urgent_worktools\MongoDB Compass" MongoDBCompass.exe
 
-mongod --dbpath=D:\WEB_Local_db
+mongod --dbpath=F:\my_urgent_worktools\Project_DB
