@@ -1,7 +1,7 @@
 @echo off
 
 REM Record the starting time
-echo Starting Time: %DATE% %TIME% >> execution_time.txt
+echo Starting Time: %DATE% %TIME% >> StartingTime.txt
 
 REM Traverse through all the files and organize into folders according to date
 FOR /R %%F IN (*) DO (
@@ -14,4 +14,4 @@ FOR /R %%F IN (*) DO (
 )
 
 REM Record the end time
-echo Ending Time: %DATE% %TIME% >> execution_time.txt
+echo Ending Time: %DATE% %TIME% >> EndingTime.txt
