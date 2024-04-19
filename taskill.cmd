@@ -75,5 +75,7 @@
 		taskkill /f /im MpCmdRun.exe
 taskkill /f /im OfficeClickToRun.exe
 taskkill /f /im msedge.exe
+
+pause
 		
 		
