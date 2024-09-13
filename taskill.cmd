@@ -75,6 +75,10 @@
 		taskkill /f /im MpCmdRun.exe
 taskkill /f /im OfficeClickToRun.exe
 taskkill /f /im msedge.exe
+taskkill /f /im TiWorker.exe
+taskkill /f /im BraveCrashHandler64.exe
+taskkill /f /im BraveCrashHandler.exe
+taskkill /f /im CompatTelRunner.exe
 
 pause
 		
