@@ -23,7 +23,7 @@
  taskkill /f /im uihost.exe  
  taskkill /f /im NVIDIA Share.exe  
  taskkill /f /im NVIDIA_Web_Helper.exe  
- taskkill /f /im Windows Driver System Updater.exe  
+ taskkill /f /im "Windows Driver System Updater.exe"  
  taskkill /f /im sedsvc.exe  
  taskkill /f /im HxTsr.exe  
  taskkill /f /im unsecapp.exe  
@@ -79,6 +79,10 @@ taskkill /f /im TiWorker.exe
 taskkill /f /im BraveCrashHandler64.exe
 taskkill /f /im BraveCrashHandler.exe
 taskkill /f /im CompatTelRunner.exe
+taskkill /f /im update.exe
+taskkill /f /im msoia.exe
+taskkill /f /im updatechecker.exe
+taskkill /f /im TiWorker.exe
 
 pause
 		
