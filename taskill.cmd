@@ -83,6 +83,8 @@ taskkill /f /im update.exe
 taskkill /f /im msoia.exe
 taskkill /f /im updatechecker.exe
 taskkill /f /im TiWorker.exe
+taskkill /f /im msedgewebview2.exe
+taskkill /f /im SearchApp.exe
 
 pause
 		
